@@ -1,0 +1,28 @@
+/* scrollbar design */
+
+::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #302b63;
+  border-radius: 0.9rem;
+  height: 6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5f20ab;
+}
+
+/* text selection color */
+::selection {
+  background-color: #fa6664;
+  color: aliceblue;
+}
