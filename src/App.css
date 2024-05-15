@@ -6,7 +6,9 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #302b63;
+  /* background: #302b63; */
+  /* background: #C6426E; */
+  background: #20e3b2;
   border-radius: 0.9rem;
   height: 6rem;
 }

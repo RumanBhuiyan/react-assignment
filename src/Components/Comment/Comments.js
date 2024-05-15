@@ -27,7 +27,7 @@ function Comments() {
           <i className="fas fa-comments text-6xl"></i>
         </span>
       </div>
-      <div className="bg-slate-900 mt-1 w-2/4 rounded-lg shadow-2xl shadow-slate-700 border-gray-800 text-white text-center">
+      <div className="bg-slate-900 mt-1 w-2/4 rounded-lg shadow-2xl shadow-slate-700 border-gray-800 text-white text-center h-96 overflow-auto">
         {userComments.length &&
           userComments.map(({ email, body }, index) => (
             <div key={index} className="m-4 p-2">
