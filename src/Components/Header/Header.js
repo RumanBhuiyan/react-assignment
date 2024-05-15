@@ -53,6 +53,12 @@ function Header() {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 <Link
+                  to="/"
+                  className=" hover:bg-indigo-500 hover:text-white rounded-md px-3 py-2 text-lg font-medium outline"
+                >
+                  Home
+                </Link>
+                <Link
                   to="/products"
                   className="bg-gray-950 hover:bg-indigo-500 text-white rounded-md px-3 py-2 text-lg font-medium"
                 >
