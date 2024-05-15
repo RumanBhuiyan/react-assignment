@@ -22,7 +22,7 @@ function Card(productDetails) {
   return (
     <div className="m-5 w-60 bg-zinc-700 shadow-xl shadow-slate-900 rounded-lg text-sm text-white text-center font-medium">
       <div className="p-4 flex flex-col items-center">
-        <img src={thumbnail} alt="product" />
+        <img src={thumbnail} alt="product" className="w-60 h-40"/>
         <h1 className="mt-2">{title}</h1>
         <p className="mt-2">
           Price :
