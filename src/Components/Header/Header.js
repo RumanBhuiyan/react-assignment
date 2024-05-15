@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <nav className="bg-green-400">
@@ -50,18 +52,18 @@ function Header() {
           <div className="flex flex-1 items-center justify-center">
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                <a
-                  href="#1"
+                <Link
+                  to="/products"
                   className="bg-gray-950 hover:bg-indigo-500 text-white rounded-md px-3 py-2 text-lg font-medium"
                 >
                   Products
-                </a>
-                <a
-                  href="#1"
+                </Link>
+                <Link
+                  to="/comments"
                   className=" hover:bg-indigo-500 hover:text-white rounded-md px-3 py-2 text-lg font-medium outline"
                 >
                   Comments
-                </a>
+                </Link>
               </div>
             </div>
           </div>
