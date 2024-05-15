@@ -78,18 +78,24 @@ function Header() {
 
       <div className="sm:hidden" id="mobile-menu">
         <div className="space-y-1 px-2 pb-3 pt-2">
-          <a
-            href="#1"
+          <Link
+            to="/"
+            className="hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+          >
+            Home
+          </Link>
+          <Link
+            to="/products"
             className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Products
-          </a>
-          <a
-            href="#1"
+          </Link>
+          <Link
+            to="/comments"
             className="hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Comments
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
