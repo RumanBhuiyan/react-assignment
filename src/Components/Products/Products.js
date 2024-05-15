@@ -1,5 +1,9 @@
+import Card from "./Card"
+
 function Products() {
-    return (<div>Product page</div>);
+    return (<div>
+        <Card />
+    </div>);
 }
 
 export default Products;
